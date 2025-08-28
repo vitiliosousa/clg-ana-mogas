@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>STEM</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url("azul.jpg");
+            background-size: cover;
+            background-position: center;
+            color: white;
+            font-family: Georgia, serif;
+        }
+
+        header {
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        .subheader {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .subheader h2 {
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+
+        .subheader p {
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        .stem-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+            margin: 40px 0;
+        }
+
+        .stem-item {
+            border: 4px solid #00ff00;
+            border-radius: 10px;
+            padding: 20px;
+            width: 200px;
+            text-align: center;
+            transition: transform 0.3s, background-color 0.3s;
+        }
+
+        .stem-item:hover {
+            background-color: rgba(0, 128, 0, 0.3);
+        }
+
+        .stem-item h2 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>STEM</h1>
+</header>
+
+<section class="subheader">
+    <h2>Construindo o Futuro, Passo a Passo, em Moçambique</h2>
+    <p>
+        Busca desenvolver habilidades práticas e resolução de problemas, impulsionando a inovação
+        e o desenvolvimento tecnológico do país.
+    </p>
+</section>
+
+<section class="stem-grid">
+    <a href="ciencia.html">
+        <div class="stem-item">
+            <h2>Science</h2>
+        </div>
+    </a>
+    <a href="tecnology.html">
+        <div class="stem-item">
+            <h2>Technology</h2>
+        </div>
+    </a>
+    <a href="eng.html">
+        <div class="stem-item">
+            <h2>Engineering</h2>
+        </div>
+    </a>
+    <a href="math.html">
+        <div class="stem-item">
+            <h2>Mathematics</h2>
+        </div>
+    </a>
+</section>
+
+</body>
+</html>

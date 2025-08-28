@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html> 
+<head> <title> </title> </head>
+<body> 
+
+</body> <h2> Inspira Mais - Plataforma de Consulta Acadêmica</h2> 
+
+
+
+	Nossos Serviços
+
+	Consulta de Artigos e Publicações Científicas:
+	Acesso a uma ampla base de dados acadêmica, com artigos, livros, teses e dissertações das principais áreas do conhecimento.
+
+	Ferramentas Avançadas de Pesquisa:
+	Utilizamos tecnologia de ponta para oferecer filtros de busca precisos, permitindo encontrar o conteúdo desejado de forma rápida e eficaz.
+
+	Consultoria Acadêmica Personalizada:
+	Nossa equipe de especialistas oferece orientação individualizada em temas de pesquisa, elaboração de trabalhos acadêmicos e desenvolvimento de projetos científicos.
+
+	Cursos e Webinars Educacionais:
+	Oferecemos cursos, webinars e workshops que abordam as últimas tendências no ensino, pesquisa e metodologias acadêmicas.
+
+	Publicação de Artigos e Pesquisas:
+	Ajudamos a divulgar suas pesquisas com suporte completo para publicação em revistas científicas e em nosso próprio portal.
+
+	Comunidade Acadêmica:
+	Criamos um espaço para interações entre estudantes, pesquisadores e professores, promovendo colaborações e discussões acadêmicas enriquecedoras.
+
+	Por que Escolher o Inspira Mais?
+
+	Acessibilidade 24/7:
+	A plataforma está disponível a qualquer momento, de qualquer lugar, garantindo acesso contínuo aos materiais de que você precisa.
+
+	Foco em Inovação e Crescimento:
+	A cada dia, nossa missão é ir além, oferecendo novos recursos, funcionalidades e conteúdos para apoiar seu desenvolvimento acadêmico.
+
+	E	quipe de Especialistas:
+	Nosso time de profissionais apaixonados por educação e pesquisa está sempre à disposição para ajudá-lo a alcançar o próximo nível.
+
+	Equipe do Inspira Mais
+
+	Conheça os membros da nossa equipe, dedicados a proporcionar a melhor experiência acadêmica possível:
+
+	*Yumalai – Coordenador de Pesquisa
+	Com vasta experiência em gestão de projetos acadêmicos, Yumalai é responsável por garantir que a plataforma esteja sempre atualizada e alinhada com as necessidades dos nossos usuários.
+
+	*Ciara – Especialista em Tecnologia Educacional
+	Ciara lidera as inovações tecnológicas na plataforma, implementando novas ferramentas para tornar a pesquisa acadêmica mais interativa e acessível.
+
+	*Muamina – Analista de Dados Acadêmicos
+	Muamina trabalha para garantir que os dados e materiais oferecidos sejam organizados e facilmente acessíveis para os usuários, aprimorando a experiência de consulta.
+
+	|*Jusceline – Consultora Acadêmica
+	Jusceline presta suporte contínuo a estudantes e pesquisadores, oferecendo orientações personalizadas sobre a criação de trabalhos acadêmicos e desenvolvimento de pesquisas.
+
+	Localização e Contato
+
+	Endereço:
+	-Rua da Pesquisa Acadêmica, nº 42, Maputo, Moçambique
+
+	-Horário de Funcionamento:
+	`Segunda a sexta-feira: 08:00 - 18:00
+	`Sábado: 09:00 - 14:00
+
+	Contato:
+
+	Email: contato@inspiramais.mz
+
+	Telefone: +258 21 234 567
+
+	WhatsApp: +258 84 567 8901
+
+	Redes Sociais:
+
+	Facebook: /InspiraMais
+
+	Twitter: @InspiraMaisMz
+	Instagram: @inspira.mais.mz
+
+	Nosso Compromisso com o Conhecimento
+
+	Inspira Mais acredita que o verdadeiro aprendizado vai além da simples consulta de informações. Nosso compromisso é criar um ambiente onde a educação se torna uma fonte inesgotável de inspiração, que motiva os indivíduos a ir além das expectativas e transformar o conhecimento em ação.
+	Transforme sua jornada acadêmica com a gente. Inspire-se, aprenda e vá além com Inspira Mais!
+	Esse nome "Inspira Mais" passa a ideia de crescimento contínuo e incentivo ao aprendizado,
+	perfeito para um site que deseja motivar e auxiliar seus usuários na busca pelo conhecimento.
+ </body> 
+ </html>
