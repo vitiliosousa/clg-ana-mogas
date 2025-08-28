@@ -1,109 +1,130 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-  <meta charset="UTF-8">
-  <title>Projetos Code Like a Girl</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #fff;
-      margin: 0;
-      padding: 20px;
-    }
+<meta charset="UTF-8">
+<title>Projetos Code Like a Girl</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
-    h1 {
-      text-align: center;
-      color: #e60000;
-      margin-bottom: 30px;
-    }
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background: #fff0f5;
+    margin: 0;
+    padding: 30px;
+  }
 
-    .container {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 20px;
-      max-width: 1000px;
-      margin: 0 auto;
-    }
+  h1 {
+    text-align: center;
+    color: #e60000;
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
 
-    .card {
-      background: #f8f8f8;
-      border: 2px solid #e60000;
-      border-radius: 12px;
-      padding: 20px;
-      transition: 0.3s;
-    }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 
-    .card:hover {
-      background: #e60000;
-      color: white;
-      transform: translateY(-5px);
-    }
+  .card {
+    background: #fff; 
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transition: transform 0.4s, box-shadow 0.4s;
+    border-top: 5px solid #e60000;
+  }
 
-    .card h2 {
-      margin: 0 0 10px 0;
-      font-size: 20px;
-    }
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+  }
 
-    .card p {
-      font-size: 14px;
-      margin-bottom: 15px;
-    }
+  .card h2 {
+    color: #b30000;
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
 
-    .card a {
-      display: inline-block;
-      padding: 10px 15px;
-      background: #e60000;
-      color: white;
-      text-decoration: none;
-      border-radius: 8px;
-      transition: 0.3s;
-      font-weight: bold;
-    }
+  .card p {
+    font-size: 15px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
 
-    .card a:hover {
-      background: black;
-    }
-  </style>
+  .card a {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #e60000;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 12px;
+    transition: 0.3s;
+  }
+
+  .card a:hover {
+    background: #ff4d4d;
+    transform: scale(1.05);
+  }
+
+  @media (max-width: 600px) {
+    h1 { font-size: 32px; }
+    .card h2 { font-size: 20px; }
+    .card p { font-size: 14px; }
+  }
+</style>
 </head>
 <body>
-  <h1>Projetos - Code Like a Girl</h1>
-  <div class="container">
-    <div class="card">
-      <h2>Bluegoals</h2>
-      <p>É uma plataforma digital que tem como objetivo auxiliar o público feminino na organização de sua jornada  desde a fase estudantil até a mulher do amanhã! Ajudando-te a saber de onde começar para te tornares a melhor versão de ti mesma!</p>
-      <a href="./bluegoals/bluegoals.html">Ver Projeto</a>
-    </div>
-    <div class="card">
-      <h2>Nutrição</h2>
-      <p>Um website educativo dedicado a aprofundar o entendimento sobre o conceito de nutrição, suas ações e sua relevância para a saúde e a qualidade de vida. O projeto procura também refletir sobre o combate à desnutrição, tanto no contexto nacional quanto mundial, despertando consciência e incentivando práticas que promovam o bem-estar coletivo..</p>
-      <a href="./desnutricao/index.html">Ver Projeto</a>
-    </div>
-    <div class="card">
-      <h2>Informatica Aplicada</h2>
-      <p>Uma porta digital desenvolvida para oferecer acesso ao conhecimento fundamental da informática aplicada abordando conceitos essenciais, suas principais áreas de aplicação e introdução à programação. 
-Um espaço pensado para despertar a compreensão tecnológica e fornecer conhecimento técnico.</p>
-      <a href="./Informatica/informatica.html">Ver Projeto</a>
-    </div>
-    <div class="card">
-      <h2>Inspira+</h2>
-      <p>Solução digital para reduzir o desperdício alimentar.</p>
-      <a href="./nossaweb/nossawebsemnome.html">Ver Projeto</a>
-    </div>
-    <div class="card">
-      <h2>STEM</h2>
-      <p>Uma plataforma criada com o propósito de estimular o aprendizado nas áreas de ciência, tecnologia, engenharia e matemática buscando desenvolver habilidades práticas e de resolução de problemas, capazes de impulsionar a inovação e contribuir para o avanço tecnológico do país.</p>
-      <a href="./stem/stem.html">Ver Projeto</a>
-    </div>
-    <div class="card">
-      <h2>Ética Ambiental</h2>
-      <p>Uma porta educativa que nos associa a um projeto que aborda conceitos fundamentais de ética aplicada ao meio ambiente, destacando práticas sustentáveis e incentivando atitudes que contribuem para a preservação do planeta e para a construção de um futuro mais equilibrado.</p>
-      <a href="./thebest/etica.html">Ver Projeto</a>
-    </div>
-    <div class="card">
-      <h2>Universidade Maria Ana Mogas</h2>
-      <p>Plataforma de mentoria entre mulheres na tecnologia.</p>
-      <a href="./umam/umam.html">Ver Projeto</a>
-    </div>
+
+<h1>Projetos - Code Like a Girl</h1>
+
+<div class="container">
+  <div class="card">
+    <h2>Bluegoals</h2>
+    <p>É uma plataforma digital que tem como objetivo auxiliar o público feminino na organização de sua jornada  desde a fase estudantil até a mulher do amanhã! Ajudando-te a saber de onde começar para te tornares a melhor versão de ti mesma!</p>
+    <a href="./bluegoals/bluegoals.html">Ver Projeto</a>
   </div>
+
+  <div class="card">
+    <h2>Nutrição</h2>
+    <p>Um website educativo dedicado a aprofundar o entendimento sobre o conceito de nutrição, suas ações e sua relevância para a saúde e a qualidade de vida. O projeto procura também refletir sobre o combate à desnutrição, tanto no contexto nacional quanto mundial, despertando consciência e incentivando práticas que promovam o bem-estar coletivo.</p>
+    <a href="./desnutricao/index.html">Ver Projeto</a>
+  </div>
+
+  <div class="card">
+    <h2>Informatica Aplicada</h2>
+    <p>Uma porta digital desenvolvida para oferecer acesso ao conhecimento fundamental da informática aplicada abordando conceitos essenciais, suas principais áreas de aplicação e introdução à programação. Um espaço pensado para despertar a compreensão tecnológica e fornecer conhecimento técnico.</p>
+    <a href="./Informatica/informatica.html">Ver Projeto</a>
+  </div>
+
+  <div class="card">
+    <h2>Inspira+</h2>
+    <p>Uma plataforma académica dedicada a inspirar e transformar a experiência de aprendizagem. O projeto oferece acesso a recursos de alta qualidade, incluindo apoio na aquisição de bolsas de estudo e oportunidades para estudar no exterior, atendendo estudantes, pesquisadores e profissionais da educação.</p>
+    <a href="./nossaweb/nossawebsemnome.html">Ver Projeto</a>
+  </div>
+
+  <div class="card">
+    <h2>STEM</h2>
+    <p>Uma plataforma criada com o propósito de estimular o aprendizado nas áreas de ciência, tecnologia, engenharia e matemática buscando desenvolver habilidades práticas e de resolução de problemas, capazes de impulsionar a inovação e contribuir para o avanço tecnológico do país.</p>
+    <a href="./stem/stem.html">Ver Projeto</a>
+  </div>
+
+  <div class="card">
+    <h2>Ética Ambiental</h2>
+    <p>Uma porta educativa que nos associa a um projeto que aborda conceitos fundamentais de ética aplicada ao meio ambiente, destacando práticas sustentáveis e incentivando atitudes que contribuem para a preservação do planeta e para a construção de um futuro mais equilibrado.</p>
+    <a href="./thebest/etica.html">Ver Projeto</a>
+  </div>
+
+  <div class="card">
+    <h2>Universidade Maria Ana Mogas</h2>
+    <p>O site da Universidade Maria Ana Mogas conecta estudantes, pesquisadores e profissionais a cursos, programas acadêmicos e oportunidades de desenvolvimento. Seu objetivo é facilitar o acesso ao conhecimento, incentivar a troca de experiências e apoiar o crescimento pessoal e profissional.</p>
+    <a href="./umam/umam.html">Ver Projeto</a>
+  </div>
+</div>
+
 </body>
 </html>
