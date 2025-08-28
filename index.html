@@ -8,21 +8,21 @@
 
   body {
     font-family: 'Montserrat', sans-serif;
-    background: #fff0f5;
+    background: #fff0f5; /* rosa claro */
     margin: 0;
-    padding: 30px;
+    padding: 20px;
   }
 
   h1 {
     text-align: center;
-    color: #e60000;
-    font-size: 40px;
+    color: #e60000; /* vermelho Vodacom */
+    font-size: 36px;
     margin-bottom: 40px;
   }
 
   .container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 25px;
     max-width: 1200px;
     margin: 0 auto;
@@ -38,18 +38,18 @@
   }
 
   .card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+    transform: translateY(-8px);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.2);
   }
 
   .card h2 {
     color: #b30000;
-    font-size: 22px;
+    font-size: 20px;
     margin-bottom: 15px;
   }
 
   .card p {
-    font-size: 15px;
+    font-size: 14px;
     color: #333;
     line-height: 1.6;
     margin-bottom: 20px;
@@ -71,10 +71,49 @@
     transform: scale(1.05);
   }
 
+  /* Responsividade para mobile */
+  @media (max-width: 900px) {
+    h1 {
+      font-size: 32px;
+      margin-bottom: 30px;
+    }
+    .card h2 {
+      font-size: 18px;
+    }
+    .card p {
+      font-size: 13px;
+    }
+    .card a {
+      padding: 10px 20px;
+      font-size: 14px;
+    }
+  }
+
   @media (max-width: 600px) {
-    h1 { font-size: 32px; }
-    .card h2 { font-size: 20px; }
-    .card p { font-size: 14px; }
+    body {
+      padding: 15px;
+    }
+    h1 {
+      font-size: 28px;
+      margin-bottom: 25px;
+    }
+    .container {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+    .card {
+      padding: 20px;
+    }
+    .card h2 {
+      font-size: 16px;
+    }
+    .card p {
+      font-size: 14px;
+    }
+    .card a {
+      padding: 10px 18px;
+      font-size: 13px;
+    }
   }
 </style>
 </head>
@@ -85,43 +124,43 @@
 <div class="container">
   <div class="card">
     <h2>Bluegoals</h2>
-    <p>É uma plataforma digital que tem como objetivo auxiliar o público feminino na organização de sua jornada  desde a fase estudantil até a mulher do amanhã! Ajudando-te a saber de onde começar para te tornares a melhor versão de ti mesma!</p>
+    <p>É uma plataforma digital que auxilia meninas na organização da sua jornada, do estudo à vida profissional, ajudando a se tornarem a melhor versão de si mesmas.</p>
     <a href="./bluegoals/bluegoals.html">Ver Projeto</a>
   </div>
 
   <div class="card">
     <h2>Nutrição</h2>
-    <p>Um website educativo dedicado a aprofundar o entendimento sobre o conceito de nutrição, suas ações e sua relevância para a saúde e a qualidade de vida. O projeto procura também refletir sobre o combate à desnutrição, tanto no contexto nacional quanto mundial, despertando consciência e incentivando práticas que promovam o bem-estar coletivo.</p>
+    <p>Website educativo sobre nutrição, promovendo hábitos saudáveis e combatendo a desnutrição, despertando consciência e incentivando práticas de bem-estar coletivo.</p>
     <a href="./desnutricao/index.html">Ver Projeto</a>
   </div>
 
   <div class="card">
     <h2>Informatica Aplicada</h2>
-    <p>Uma porta digital desenvolvida para oferecer acesso ao conhecimento fundamental da informática aplicada abordando conceitos essenciais, suas principais áreas de aplicação e introdução à programação. Um espaço pensado para despertar a compreensão tecnológica e fornecer conhecimento técnico.</p>
+    <p>Portal para aprendizado em informática aplicada, abordando conceitos essenciais e introdução à programação, promovendo conhecimento técnico e habilidades digitais.</p>
     <a href="./Informatica/informatica.html">Ver Projeto</a>
   </div>
 
   <div class="card">
     <h2>Inspira+</h2>
-    <p>Uma plataforma académica dedicada a inspirar e transformar a experiência de aprendizagem. O projeto oferece acesso a recursos de alta qualidade, incluindo apoio na aquisição de bolsas de estudo e oportunidades para estudar no exterior, atendendo estudantes, pesquisadores e profissionais da educação.</p>
+    <p>Plataforma acadêmica que oferece recursos de alta qualidade, bolsas de estudo e oportunidades para estudar no exterior, apoiando estudantes e profissionais da educação.</p>
     <a href="./nossaweb/nossawebsemnome.html">Ver Projeto</a>
   </div>
 
   <div class="card">
     <h2>STEM</h2>
-    <p>Uma plataforma criada com o propósito de estimular o aprendizado nas áreas de ciência, tecnologia, engenharia e matemática buscando desenvolver habilidades práticas e de resolução de problemas, capazes de impulsionar a inovação e contribuir para o avanço tecnológico do país.</p>
+    <p>Plataforma para estimular aprendizado em ciência, tecnologia, engenharia e matemática, desenvolvendo habilidades práticas e pensamento crítico para inovação.</p>
     <a href="./stem/stem.html">Ver Projeto</a>
   </div>
 
   <div class="card">
     <h2>Ética Ambiental</h2>
-    <p>Uma porta educativa que nos associa a um projeto que aborda conceitos fundamentais de ética aplicada ao meio ambiente, destacando práticas sustentáveis e incentivando atitudes que contribuem para a preservação do planeta e para a construção de um futuro mais equilibrado.</p>
+    <p>Projeto educativo sobre ética ambiental, destacando práticas sustentáveis e incentivando atitudes que preservam o planeta e promovem um futuro equilibrado.</p>
     <a href="./thebest/etica.html">Ver Projeto</a>
   </div>
 
   <div class="card">
     <h2>Universidade Maria Ana Mogas</h2>
-    <p>O site da Universidade Maria Ana Mogas conecta estudantes, pesquisadores e profissionais a cursos, programas acadêmicos e oportunidades de desenvolvimento. Seu objetivo é facilitar o acesso ao conhecimento, incentivar a troca de experiências e apoiar o crescimento pessoal e profissional.</p>
+    <p>Site institucional conectando estudantes a cursos e oportunidades acadêmicas, facilitando o acesso ao conhecimento e promovendo crescimento pessoal e profissional.</p>
     <a href="./umam/umam.html">Ver Projeto</a>
   </div>
 </div>
